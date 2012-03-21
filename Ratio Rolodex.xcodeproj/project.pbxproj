@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32D65D12151A848200FAD387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D65D11151A848200FAD387 /* UIKit.framework */; };
+		32D65D14151A848200FAD387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D65D13151A848200FAD387 /* Foundation.framework */; };
+		32D65D16151A848200FAD387 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D65D15151A848200FAD387 /* CoreGraphics.framework */; };
+		32D65D1C151A848200FAD387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D65D1A151A848200FAD387 /* InfoPlist.strings */; };
+		32D65D1E151A848200FAD387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D65D1D151A848200FAD387 /* main.m */; };
+		32D65D22151A848200FAD387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D65D21151A848200FAD387 /* AppDelegate.m */; };
+		32D65D25151A848200FAD387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D65D24151A848200FAD387 /* ViewController.m */; };
+		32D65D28151A848200FAD387 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D65D26151A848200FAD387 /* ViewController_iPhone.xib */; };
+		32D65D2B151A848200FAD387 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D65D29151A848200FAD387 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32D65D0D151A848200FAD387 /* Ratio Rolodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ratio Rolodex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D65D11151A848200FAD387 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32D65D13151A848200FAD387 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32D65D15151A848200FAD387 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32D65D19151A848200FAD387 /* Ratio Rolodex-Info.plist */ = {isa = PBXFileReference; path = "Ratio Rolodex-Info.plist"; sourceTree = "<group>"; };
+		32D65D1B151A848200FAD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32D65D1D151A848200FAD387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32D65D1F151A848200FAD387 /* Ratio Rolodex-Prefix.pch */ = {isa = PBXFileReference; path = "Ratio Rolodex-Prefix.pch"; sourceTree = "<group>"; };
+		32D65D20151A848200FAD387 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		32D65D21151A848200FAD387 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32D65D23151A848200FAD387 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		32D65D24151A848200FAD387 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32D65D27151A848200FAD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		32D65D2A151A848200FAD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D65D0A151A848200FAD387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D65D12151A848200FAD387 /* UIKit.framework in Frameworks */,
+				32D65D14151A848200FAD387 /* Foundation.framework in Frameworks */,
+				32D65D16151A848200FAD387 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D65D02151A848200FAD387 = {
+			isa = PBXGroup;
+			children = (
+				32D65D17151A848200FAD387 /* Ratio Rolodex */,
+				32D65D10151A848200FAD387 /* Frameworks */,
+				32D65D0E151A848200FAD387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32D65D0E151A848200FAD387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D65D0D151A848200FAD387 /* Ratio Rolodex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32D65D10151A848200FAD387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32D65D11151A848200FAD387 /* UIKit.framework */,
+				32D65D13151A848200FAD387 /* Foundation.framework */,
+				32D65D15151A848200FAD387 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32D65D17151A848200FAD387 /* Ratio Rolodex */ = {
+			isa = PBXGroup;
+			children = (
+				32D65D20151A848200FAD387 /* AppDelegate.h */,
+				32D65D21151A848200FAD387 /* AppDelegate.m */,
+				32D65D23151A848200FAD387 /* ViewController.h */,
+				32D65D24151A848200FAD387 /* ViewController.m */,
+				32D65D26151A848200FAD387 /* ViewController_iPhone.xib */,
+				32D65D29151A848200FAD387 /* ViewController_iPad.xib */,
+				32D65D18151A848200FAD387 /* Supporting Files */,
+			);
+			path = "Ratio Rolodex";
+			sourceTree = "<group>";
+		};
+		32D65D18151A848200FAD387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D65D19151A848200FAD387 /* Ratio Rolodex-Info.plist */,
+				32D65D1A151A848200FAD387 /* InfoPlist.strings */,
+				32D65D1D151A848200FAD387 /* main.m */,
+				32D65D1F151A848200FAD387 /* Ratio Rolodex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32D65D0C151A848200FAD387 /* Ratio Rolodex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D65D2E151A848200FAD387 /* Build configuration list for PBXNativeTarget "Ratio Rolodex" */;
+			buildPhases = (
+				32D65D09151A848200FAD387 /* Sources */,
+				32D65D0A151A848200FAD387 /* Frameworks */,
+				32D65D0B151A848200FAD387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ratio Rolodex";
+			productName = "Ratio Rolodex";
+			productReference = 32D65D0D151A848200FAD387 /* Ratio Rolodex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32D65D04151A848200FAD387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 32D65D07151A848200FAD387 /* Build configuration list for PBXProject "Ratio Rolodex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32D65D02151A848200FAD387;
+			productRefGroup = 32D65D0E151A848200FAD387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D65D0C151A848200FAD387 /* Ratio Rolodex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D65D0B151A848200FAD387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D65D1C151A848200FAD387 /* InfoPlist.strings in Resources */,
+				32D65D28151A848200FAD387 /* ViewController_iPhone.xib in Resources */,
+				32D65D2B151A848200FAD387 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D65D09151A848200FAD387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D65D1E151A848200FAD387 /* main.m in Sources */,
+				32D65D22151A848200FAD387 /* AppDelegate.m in Sources */,
+				32D65D25151A848200FAD387 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32D65D1A151A848200FAD387 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D65D1B151A848200FAD387 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32D65D26151A848200FAD387 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D65D27151A848200FAD387 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		32D65D29151A848200FAD387 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D65D2A151A848200FAD387 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32D65D2C151A848200FAD387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32D65D2D151A848200FAD387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32D65D2F151A848200FAD387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ratio Rolodex/Ratio Rolodex-Prefix.pch";
+				INFOPLIST_FILE = "Ratio Rolodex/Ratio Rolodex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32D65D30151A848200FAD387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ratio Rolodex/Ratio Rolodex-Prefix.pch";
+				INFOPLIST_FILE = "Ratio Rolodex/Ratio Rolodex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32D65D07151A848200FAD387 /* Build configuration list for PBXProject "Ratio Rolodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D65D2C151A848200FAD387 /* Debug */,
+				32D65D2D151A848200FAD387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D65D2E151A848200FAD387 /* Build configuration list for PBXNativeTarget "Ratio Rolodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D65D2F151A848200FAD387 /* Debug */,
+				32D65D30151A848200FAD387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32D65D04151A848200FAD387 /* Project object */;
+}
