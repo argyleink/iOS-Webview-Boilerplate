@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+<UIWebViewDelegate> {
+    IBOutlet UIWebView *webView;
+}
+
+@property (nonatomic, retain) UIWebView * webView;
+
 @end

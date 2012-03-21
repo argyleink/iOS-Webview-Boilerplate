@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize webView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -21,7 +22,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	NSString *fullURL = @"http://rolodex.herokuapp.com"; 
+    NSURL *url = [NSURL URLWithString:fullURL]; 
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url]; [webView loadRequest:requestObj];
 }
 
 - (void)viewDidUnload
