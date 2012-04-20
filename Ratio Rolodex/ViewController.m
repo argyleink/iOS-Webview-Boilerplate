@@ -3,13 +3,14 @@
 //  Ratio Rolodex
 //
 //  Created by Adam Argyle on 3/21/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 ArgyleInk. All rights reserved.
 //
 
 #import "ViewController.h"
 
 @implementation ViewController
 @synthesize webView;
+@synthesize spinner;
 
 - (void)didReceiveMemoryWarning
 {
@@ -24,7 +25,12 @@
     [super viewDidLoad];
 	NSString *fullURL = @"http://rolodex.herokuapp.com"; 
     NSURL *url = [NSURL URLWithString:fullURL]; 
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url]; [webView loadRequest:requestObj];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url]; 
+    [webView loadRequest:requestObj];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [spinner stopAnimating]; 
 }
 
 - (void)viewDidUnload
