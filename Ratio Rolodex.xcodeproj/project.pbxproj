@@ -16,6 +16,13 @@
 		32D65D25151A848200FAD387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D65D24151A848200FAD387 /* ViewController.m */; };
 		32D65D28151A848200FAD387 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D65D26151A848200FAD387 /* ViewController_iPhone.xib */; };
 		32D65D2B151A848200FAD387 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D65D29151A848200FAD387 /* ViewController_iPad.xib */; };
+		32F37946151B94DF00E37147 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F37945151B94DF00E37147 /* 114x114.png */; };
+		32F37949151B94E800E37147 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F37948151B94E800E37147 /* 57x57.png */; };
+		32F3794B151B950500E37147 /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F3794A151B950500E37147 /* 72x72.png */; };
+		32F3794D151B962300E37147 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F3794C151B962300E37147 /* Default.png */; };
+		32F3794F151B969500E37147 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F3794E151B969500E37147 /* Default@2x.png */; };
+		32F37951151B972500E37147 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F37950151B972500E37147 /* Default-Portrait~ipad.png */; };
+		32F37953151B979400E37147 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F37952151B979400E37147 /* Default-Landscape~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +40,13 @@
 		32D65D24151A848200FAD387 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		32D65D27151A848200FAD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		32D65D2A151A848200FAD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		32F37945151B94DF00E37147 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		32F37948151B94E800E37147 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		32F3794A151B950500E37147 /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
+		32F3794C151B962300E37147 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		32F3794E151B969500E37147 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		32F37950151B972500E37147 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		32F37952151B979400E37147 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,13 @@
 		32D65D02151A848200FAD387 = {
 			isa = PBXGroup;
 			children = (
+				32F37952151B979400E37147 /* Default-Landscape~ipad.png */,
+				32F37950151B972500E37147 /* Default-Portrait~ipad.png */,
+				32F3794E151B969500E37147 /* Default@2x.png */,
+				32F3794C151B962300E37147 /* Default.png */,
+				32F3794A151B950500E37147 /* 72x72.png */,
+				32F37948151B94E800E37147 /* 57x57.png */,
+				32F37945151B94DF00E37147 /* 114x114.png */,
 				32D65D17151A848200FAD387 /* Ratio Rolodex */,
 				32D65D10151A848200FAD387 /* Frameworks */,
 				32D65D0E151A848200FAD387 /* Products */,
@@ -154,6 +175,13 @@
 				32D65D1C151A848200FAD387 /* InfoPlist.strings in Resources */,
 				32D65D28151A848200FAD387 /* ViewController_iPhone.xib in Resources */,
 				32D65D2B151A848200FAD387 /* ViewController_iPad.xib in Resources */,
+				32F37946151B94DF00E37147 /* 114x114.png in Resources */,
+				32F37949151B94E800E37147 /* 57x57.png in Resources */,
+				32F3794B151B950500E37147 /* 72x72.png in Resources */,
+				32F3794D151B962300E37147 /* Default.png in Resources */,
+				32F3794F151B969500E37147 /* Default@2x.png in Resources */,
+				32F37951151B972500E37147 /* Default-Portrait~ipad.png in Resources */,
+				32F37953151B979400E37147 /* Default-Landscape~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +234,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Argyle (J3PCR7RQ88)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Adam Argyle (J3PCR7RQ88)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -221,6 +250,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "C468D487-9601-40EC-8255-B6E1000BAEF8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C468D487-9601-40EC-8255-B6E1000BAEF8";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -232,7 +263,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Adam Argyle (J3PCR7RQ88)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Adam Argyle (J3PCR7RQ88)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -241,6 +273,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C468D487-9601-40EC-8255-B6E1000BAEF8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C468D487-9601-40EC-8255-B6E1000BAEF8";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -288,6 +322,7 @@
 				32D65D30151A848200FAD387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
